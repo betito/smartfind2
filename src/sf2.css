@@ -1,0 +1,73 @@
+body {
+	font-family: Sans-serif;
+	font-size: 100%;
+	margin: 0px;
+	/*background-color: #d3d3d3;*/
+}
+
+.divbody {
+	width: 400px;
+	min-height: 70px;
+	padding: 2px;
+}
+
+.top {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	background-color: #334455;
+}
+
+.middle {
+	margin-bottom: 10px;
+	position: fixed;
+	top: 30px;
+}
+
+.title {
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	color: blue;
+	float: left;
+}
+
+
+
+.middle{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 400px;
+}
+
+.about {
+	font-size: 10px;
+	font-weight: bold;
+	float: right;
+}
+
+#query {
+	width: 300px;
+	border-style: thin solid;
+	float: left;
+}
+
+.botao {
+	float: right;
+	border: 2px solid #1E90FF;
+	background-color: #1E90FF;
+	color: white;
+}
+
+#status {
+	/* avoid an excessively wide status text */
+	white-space: pre;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	max-width: 400px;
+}
+
+#results{
+	position: relative;
+	top: 70px;
+	visibility: hidden;
+}
